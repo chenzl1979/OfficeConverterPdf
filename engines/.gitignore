@@ -1,0 +1,4 @@
+# 本目录存放预置的 LibreOffice 包与解包结果（体积大，不入版本库）。
+# 下载包用 build/fetch-engines.ps1；解包用 build/setup-windows.ps1 或 build/setup-linux.sh。
+*
+!.gitignore

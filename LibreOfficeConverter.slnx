@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LibreOffice.Core/LibreOffice.Core.csproj" />
+    <Project Path="src/LibreOfficeDemo/LibreOfficeDemo.csproj" />
+  </Folder>
+</Solution>

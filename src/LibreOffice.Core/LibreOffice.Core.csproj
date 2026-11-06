@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    LibreOffice.Core：把 Filee 项目中的 LibreOffice 文档格式转换能力提取出来的独立类库。
+    目标框架 .NET 10（net10.0），不依赖任何第三方 NuGet 包。
+    生成 XML 文档文件（GenerateDocumentationFile），以便中文注释可以随库一起分发。
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>LibreOffice.Core</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Description>通过 LibreOffice 无头模式转换文档格式（Office 文档 → PDF 等）的独立类库，提取自 Filee 开源项目。</Description>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    LibreOfficeDemo：控制台演示程序，展示 LibreOffice.Core 类库的调用方式。
+    用法（在 LibreOfficeDemo 目录下执行，"参数分隔符"为两个短横线）：
+      dotnet run 参数分隔符 "C:\Docs\报告.docx" pdf
+      dotnet run 参数分隔符 "C:\Docs\表格.xlsx" pdf "C:\Out\表格.pdf"
+      dotnet run 参数分隔符 自测开关   （运行内置的 filter 映射自测，不需要 LibreOffice）
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>LibreOfficeDemo</RootNamespace>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 引用同一个解决方案里的转换类库 -->
+    <ProjectReference Include="..\LibreOffice.Core\LibreOffice.Core.csproj" />
+  </ItemGroup>
+
+</Project>

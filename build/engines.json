@@ -1,0 +1,51 @@
+﻿{
+    "libreofficeVersion":  "26.8.2",
+    "comment":  "预置 LibreOffice 包清单。mirrors 按顺序尝试（国内清华 TUNA 优先，官方 TDF 兜底，官方会 302 到就近镜像）。sha256 为 null 表示尚未固定：fetch-engines.ps1 首次下载后会计算哈希并回填到此文件，请核对来源后将其作为固定校验值。",
+    "packages":  {
+                     "win-x64":  {
+                                     "file":  "LibreOffice_26.8.2_Win_x86-64.msi",
+                                     "sizeBytes":  375934976,
+                                     "sha256":  "ff4b911403b67ee9e6249f820f9782c44bb32c94fdaa45b0da53a8e419e5307a",
+                                     "mirrors":  [
+                                                     "https://mirrors.tuna.tsinghua.edu.cn/libreoffice/libreoffice/stable/26.8.2/win/x86_64/LibreOffice_26.8.2_Win_x86-64.msi",
+                                                     "https://download.documentfoundation.org/libreoffice/stable/26.8.2/win/x86_64/LibreOffice_26.8.2_Win_x86-64.msi"
+                                                 ]
+                                 },
+                     "linux-deb-x64":  {
+                                           "file":  "LibreOffice_26.8.2_Linux_x86-64_deb.tar.gz",
+                                           "sizeBytes":  221253345,
+                                           "sha256":  "8290c8f46cb33d6df8f681cb796e0697461ea070f86ec55b63c94d7eb9d9a476",
+                                           "mirrors":  [
+                                                           "https://mirrors.tuna.tsinghua.edu.cn/libreoffice/libreoffice/stable/26.8.2/deb/x86_64/LibreOffice_26.8.2_Linux_x86-64_deb.tar.gz",
+                                                           "https://download.documentfoundation.org/libreoffice/stable/26.8.2/deb/x86_64/LibreOffice_26.8.2_Linux_x86-64_deb.tar.gz"
+                                                       ]
+                                       },
+                     "linux-rpm-x64":  {
+                                           "file":  "LibreOffice_26.8.2_Linux_x86-64_rpm.tar.gz",
+                                           "sizeBytes":  254803968,
+                                           "sha256":  "b975aa91c1066d3a97058395d85c0fa930197e98e723f2cf399493a1484b47ad",
+                                           "mirrors":  [
+                                                           "https://mirrors.tuna.tsinghua.edu.cn/libreoffice/libreoffice/stable/26.8.2/rpm/x86_64/LibreOffice_26.8.2_Linux_x86-64_rpm.tar.gz",
+                                                           "https://download.documentfoundation.org/libreoffice/stable/26.8.2/rpm/x86_64/LibreOffice_26.8.2_Linux_x86-64_rpm.tar.gz"
+                                                       ]
+                                       },
+                     "linux-deb-arm64":  {
+                                             "file":  "LibreOffice_26.8.2_Linux_aarch64_deb.tar.gz",
+                                             "sizeBytes":  209715200,
+                                             "sha256":  "54a780b666fcda7510c2eebe85265b71dd209db280fc16882fca5589015ca505",
+                                             "mirrors":  [
+                                                             "https://mirrors.tuna.tsinghua.edu.cn/libreoffice/libreoffice/stable/26.8.2/deb/aarch64/LibreOffice_26.8.2_Linux_aarch64_deb.tar.gz",
+                                                             "https://download.documentfoundation.org/libreoffice/stable/26.8.2/deb/aarch64/LibreOffice_26.8.2_Linux_aarch64_deb.tar.gz"
+                                                         ]
+                                         },
+                     "linux-rpm-arm64":  {
+                                             "file":  "LibreOffice_26.8.2_Linux_aarch64_rpm.tar.gz",
+                                             "sizeBytes":  242218375,
+                                             "sha256":  "9b2f39c88f25aaac9df32d1cbda6567c02c1a03214189a26dc17e4d61895985c",
+                                             "mirrors":  [
+                                                             "https://mirrors.tuna.tsinghua.edu.cn/libreoffice/libreoffice/stable/26.8.2/rpm/aarch64/LibreOffice_26.8.2_Linux_aarch64_rpm.tar.gz",
+                                                             "https://download.documentfoundation.org/libreoffice/stable/26.8.2/rpm/aarch64/LibreOffice_26.8.2_Linux_aarch64_rpm.tar.gz"
+                                                         ]
+                                         }
+                 }
+}
